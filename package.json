@@ -1,0 +1,26 @@
+{
+  "name": "contract-testing",
+  "version": "1.0.0",
+  "description": "Consists of sample contract tests for a public API",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhosh-r-urs/contract-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhosh-r-urs/contract-testing/issues"
+  },
+  "homepage": "https://github.com/santhosh-r-urs/contract-testing#readme",
+  "devDependencies": {
+    "@pact-foundation/pact": "^14.0.0",
+    "axios": "^1.8.1",
+    "jest": "^29.7.0"
+  }
+}
