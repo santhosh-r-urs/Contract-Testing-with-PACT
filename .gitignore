@@ -1,2 +1,3 @@
 # Ignore Pacts folder
 Pacts/
+node_modules
