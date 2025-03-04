@@ -4,6 +4,7 @@ export default {
     transform: {},
     moduleFileExtensions: ['js', 'jsx', 'json', 'node','mjs', 'cjs'],
     testSequencer: './testSequencer.cjs', // Since consumer side tests needs to be run before provider side tests
+    testTimeout: 10000,
     reporters: [
         "default",
         ["jest-junit", { outputDirectory: "results/jest", outputName: "junit.xml" }],
