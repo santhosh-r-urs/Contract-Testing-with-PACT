@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: Run Contract tests on pipeline
 
 on:
   push:
