@@ -36,12 +36,6 @@ jobs:
           name: jest-html-report
           path: results/jest/
           retention-days: 7
-    
-      - name: List Jest Report Files (Debugging)
-        run: ls -lh results/jest
-
-      - name: Check Jest HTML Report Content
-        run: cat results/jest/test-report.html || echo "test-report.html is empty"
 
       - name: Upload Jest Test Reports (JUnit)
         uses: actions/upload-artifact@v4
