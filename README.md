@@ -1,5 +1,5 @@
-# contract-testing
-Consists of sample contract tests for a public API
+# Contract Testing suite CI integrated
+This is a **CI integrated, report generating automated contract testing suite** which uses public APIs.
 
 **Steps to run the tests**-
 1. Clone the repo.
@@ -12,5 +12,4 @@ The Consumer side tests runs first and when completed created a contract file (P
 The provider side tests then picks the contract file and runs its test.
 
 While you can see the test results on the terminal, test reports are also generated post test execution under results folder. 
-
 View the test-report.html file for report, i.e., copy the path of the file after right clicking on it and paste the path in a browser.
