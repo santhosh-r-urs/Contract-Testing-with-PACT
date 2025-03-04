@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jest-html-report
-          path: results/jest/test-report.html
+          path: results/jest/
           retention-days: 7
     
       - name: List Jest Report Files (Debugging)
