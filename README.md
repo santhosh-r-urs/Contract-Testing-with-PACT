@@ -1,7 +1,7 @@
 # Contract Testing suite
 This is a **CI integrated, report generating, automated contract testing suite**
 
-**Steps to run the tests by cloning the repo:**
+**Steps to run the tests locally:**
 1. Clone the repo.
 2. Run command 'npm install'
 3. Run command 'npm run test'
@@ -23,9 +23,10 @@ View the test-report.html file for report, i.e., copy the path of the file after
 3. Click download button for the 'jest-html-report', a zip file gets downloaded.
 4. Unzip and open the folder and double click the 'test-report.html' file to view the report.
 
-**Test execution:**
-The Consumer side tests runs first and when completed created a contract file (Pact) in the `pacts` folder in the root directory.
+**Test execution flow:**
+The Consumer side tests runs first and when completed creates a contract file (Pact) in the `pacts` folder in the root directory.
 The provider side tests then picks the contract file and runs its test i.e., verifies all the interactions in the contract file.
+Thus verifying the API works as expected both the sides.
 
 **Tools used:** 
 **Jest** for running tests and reporting, 
