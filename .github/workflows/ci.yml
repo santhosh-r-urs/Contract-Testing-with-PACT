@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Tests and Generate Reports
+      - name: Run Tests & Generate Reports
         run: npm run test
 
       - name: Upload Jest Test Reports (HTML)
