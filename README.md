@@ -23,6 +23,12 @@ View the test-report.html file for report, i.e., copy the path of the file after
 3. Click download button for the 'jest-html-report', a zip file gets downloaded.
 4. Unzip and open the folder and double click the 'test-report.html' file to view the report.
 
+**Sample report:**
+
+
+<img width="1398" alt="Screenshot 2025-03-05 at 14 04 29" src="https://github.com/user-attachments/assets/9c28394c-0ebc-4ad8-aa8e-e9224943d774" />
+
+
 **Test execution flow:**
 The Consumer side tests runs first and when completed creates a contract file (Pact) in the `pacts` folder in the root directory.
 The provider side tests then picks the contract file and runs its test i.e., verifies all the interactions in the contract file.
